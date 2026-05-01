@@ -1,43 +1,52 @@
 <script setup>
-import {ref, onMounted} from "vue";
-import {useRouter,useRoute} from "vue-router"
-const towers = ref([])
+import { ref, onMounted } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
 
 const router = useRouter();
-const current_route = useRoute()
-const id_project = current_route.params.id_project
+const current_route = useRoute();
+const id_project = current_route.params.id_project;
 
-const towers_test = ref([
-  {id_tower:1,tower_number:1, id_project:id_project},
-  {id_tower:2,tower_number:2, id_project:id_project},
-  {id_tower:3,tower_number:3, id_project:id_project},
-  {id_tower:4,tower_number:4, id_project:id_project},
-  {id_tower:5,tower_number:5, id_project:id_project},
+const storageKey = `towers_project_${id_project}`;
+const towers_test = ref([]);
 
-])
-
-const get_towers_by_project = async (id_project) => {
-  const res = await fetch(`http://localhost:2828/towers/${id_project}`)
-  if(res.ok){
-    towers.value = await res.json()
-    console.log(towers.value)
-  }else{
-    console.log("Error", res.error)
-  }
-}
+const saveToLocal = () => {
+  localStorage.setItem(storageKey, JSON.stringify(towers_test.value));
+};
 
 const add_tower = () => {
-  towers.value.push({tower_name: 'TORRE AÑADIDA'});
-}
+
+  let maxNumber = 0;
+  towers_test.value.forEach(t => {
+    if (t.tower_number > maxNumber) maxNumber = t.tower_number;
+  });
+
+  const nextNumber = maxNumber + 1;
+
+  const new_tower = {
+    id_tower: Date.now(),
+    tower_number: nextNumber,
+    id_project: id_project
+  };
+
+  towers_test.value.push(new_tower);
+  saveToLocal();
+};
 
 const go_tower_info = (id_tower) => {
-  router.push(`/project_towers/tower_info/${id_tower}`)
-}
-
+  router.push(`/tower_info/${id_tower}`);
+};
 onMounted(() => {
-  console.log(towers_test.value)
-  console.log(id_project)
-})
+  const savedTowers = localStorage.getItem(storageKey);
+  if (savedTowers) {
+    towers_test.value = JSON.parse(savedTowers);
+  } else {
+    towers_test.value = [
+      { id_tower: 1, tower_number: 1, id_project: id_project },
+      { id_tower: 2, tower_number: 2, id_project: id_project },
+    ];
+    saveToLocal();
+  }
+});
 </script>
 
 <template>

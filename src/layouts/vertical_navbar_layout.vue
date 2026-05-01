@@ -1,23 +1,27 @@
 <script setup>
 import Navbar from '@/components/navbar.vue';
 import {useRoute} from 'vue-router'
-import {provide, ref, watch} from "vue";
+import {provide, ref, watch, computed} from "vue";
 
 const current_route = useRoute();
-const items_list = current_route.meta.items_list
 
-const current_tower_stage = ref()
-const current_view = ref()
+const items_list = computed(() => {
+  return current_route.meta.items_list || [];
+});
+
+const current_tower_stage = ref();
+const current_view = ref();
 
 const receive_stage = (stage) => {
-  current_tower_stage.value = stage
+  current_tower_stage.value = stage;
 }
 
 const change_view = (view) => {
-  current_view.value = view
+  current_view.value = view;
 }
-provide('stage_info', current_tower_stage)
-provide('new_view', current_view)
+
+provide('stage_info', current_tower_stage);
+provide('new_view', current_view);
 </script>
 
 <template>
