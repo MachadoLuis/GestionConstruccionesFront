@@ -15,6 +15,21 @@ const router = createRouter({
             component: () => import('@/pages/projects.vue'),
             meta: {
                 layout: 'vertical_navbar_layout',
+                items_list: [
+                    {title:'Historial de Proyecto'},
+                    {title: 'Gestionar Trabajadores'},
+                    {title:'Comunicados de Torre'},
+                    {list_group:
+                            {
+                                title: 'Informes de Progresion',
+                                children_list: [
+                                    {title: 'HIJO DE PROGRESION1'},
+                                    {title: 'HIJO DE PROGRESION2'},
+                                    {title: 'HIJO DE PROGRESION3'}
+                                ]
+                            },
+                    }
+                ]
             }
         },
         {

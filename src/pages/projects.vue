@@ -1,39 +1,49 @@
 <script setup>
-import {ref, onMounted} from "vue";
-import {useRouter} from "vue-router";
+import { ref, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const projects = ref([])
-const projects_test = ref([
-  {project_name:"PROYECTO1", id_project:1},
-  {project_name:"PROYECTO2", id_project:2},
-  {project_name:"PROYECTO3", id_project:3},
-  {project_name:"PROYECTO4", id_project:4},
-  {project_name:"PROYECTO5", id_project:5},
-])
+const projects_test = ref([]);
+
+const saveToLocal = () => {
+  localStorage.setItem('projects_data', JSON.stringify(projects_test.value));
+};
 
 const add_project = () => {
-  projects_test.value.push({project_name: 'PROYECTO7'});
-}
+  let maxNumber = 0;
+
+  projects_test.value.forEach(p => {
+    const match = p.project_name.match(/\d+/);
+    if (match) {
+      const num = parseInt(match[0]);
+      if (num > maxNumber) maxNumber = num;
+    }
+  });
+  const nextNumber = maxNumber + 1;
+  const newProject = {
+    project_name: `PROYECTO ${nextNumber}`,
+    id_project: Date.now()
+  };
+
+  projects_test.value.push(newProject);
+  saveToLocal();
+};
 
 const go_project_towers = (id_project) => {
-  router.push(`/project_towers/${id_project}`)
-}
-
-const get_projects = async () => {
-  const res = await fetch("http://localhost:2828/projects")
-  if(res.ok){
-    projects_test.value = await res.json()
-    console.log(projects_test.value)
-  }else{
-    console.log("Error", res.error)
-  }
-
-}
+  router.push(`/project_towers/${id_project}`);
+};
 
 onMounted(() => {
-})
-
+  const savedProjects = localStorage.getItem('projects_data');
+  if (savedProjects) {
+    projects_test.value = JSON.parse(savedProjects);
+  } else {
+    projects_test.value = [
+      { project_name: "PROYECTO 1", id_project: 1 }
+    ];
+    saveToLocal();
+  }
+});
 </script>
 
 <template>
