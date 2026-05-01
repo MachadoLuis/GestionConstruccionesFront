@@ -4,7 +4,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path:"",
+            path:'',
             component: () => import('@/pages/index.vue'),
             meta: {
                 layout: 'horizontal_navbar_layout'
@@ -48,19 +48,21 @@ const router = createRouter({
                     {list_group:
                             {
                                 title: 'Historial de Torre',
+                                view:'TowerHistoryStage',
                                 children_list: [
-                                    {title: 'Etapa 1', stage:'1'},
-                                    {title: 'Etapa 2',stage:'2'},
-                                    {title: 'Etapa 3',stage:'3'},
-                                    {title: 'Etapa 4',stage:'4'}
+                                    {title: 'Etapa 1', stage:'1' , view:'TowerHistoryStage'},
+                                    {title: 'Etapa 2',stage:'2', view:'TowerHistoryStage'},
+                                    {title: 'Etapa 3',stage:'3', view:'TowerHistoryStage'},
+                                    {title: 'Etapa 4',stage:'4', view:'TowerHistoryStage'}
                                 ]
                             }
                     },
+                    {title: 'Etapas de Torre', view:'OpenTowerStage'},
                     {title:'Comunicados de Etapas'}
                 ]
             }
-        }
-    ]
+        },
+        ]
 })
 
 export default router
