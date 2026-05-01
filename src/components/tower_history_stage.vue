@@ -10,54 +10,35 @@ const props = defineProps({
     required:true
   }
 })
-
+const headers = [
+  { title: 'Trabajo', key: 'Trabajo', align: 'center', sortable:false},
+  { title: 'Descripción', key: 'Descripcion', align: 'center' , sortable:false},
+  { title: 'Trabajadores', key: 'Trabajadores', align: 'center' , sortable:false},
+]
 onMounted(() => {
   console.log(props.tower_info.id_tower)
 })
 </script>
 
 <template>
-  <v-card class="rounded-0" style="background-color:red">
-    <h4 class="text-left">Torre {{props.tower_info.id_tower}} - Etapa {{props.tower_info.current_stage}}</h4>
-    <h4 class="text-left">Se aperturo en dd/mm/aa</h4>
+  <v-card flat class="rounded-0" style="background-color:transparent; color:#9B16F3">
+    <h4 class="text-left">Torre {{props.tower_info.id_tower}} - Etapa {{props.tower_info.current_stage}} Se aperturo el 30/04/26 </h4>
     <h4 class="text-left">Tareas</h4>
-    <v-sheet style="border: 2px solid blue; background-color:green">
-      <v-row class="ma-0 border-b" align="center">
-        <v-col cols="3">
-          <span class="text-truncate">Nombre</span>
-        </v-col>
-        <v-col cols="4">
-          <span class="text-truncate"> Descripcion</span>
-        </v-col>
-        <v-col cols="3">
-          <span>Trabajadores</span>
-        </v-col>
-        <v-col cols="2" class="text-center">
-          <span>Delayed</span>
-        </v-col>
-      </v-row>
-      <v-virtual-scroll :items="props.tower_stage_tasks">
-        <template v-slot:default="{item:tower_stage_task}">
-          <v-row  align="center">
-            <v-col cols="3">
-              <span class="text-truncate">{{ tower_stage_task.task_name }}</span>
-            </v-col>
-            <v-col cols="4">
-              <span class="text-truncate">{{ tower_stage_task.task_description }}</span>
-            </v-col>
-            <v-col cols="3">
-              <span>{{ tower_stage_task.task_workers }}</span>
-            </v-col>
-            <v-col cols="2" class="text-center">
-              <span>{{ tower_stage_task.task_delayed ? 'Sí' : 'No' }}</span>
-            </v-col>
-          </v-row>
-        </template>
-      </v-virtual-scroll>
+    <v-sheet style="background-color:#A188FB">
+      <v-data-table
+          class="custom-table"
+          :headers="headers"
+          :items="props.tower_stage_tasks"
+          items-per-page="-1"
+      />
     </v-sheet>
   </v-card>
 </template>
 
 <style scoped>
-
+.custom-table {
+  background-color: transparent !important;
+  color: #F5F5F5 !important;
+  border-radius: 8px;
+}
 </style>
