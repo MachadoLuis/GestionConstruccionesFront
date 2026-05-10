@@ -1,0 +1,72 @@
+[
+  {
+    "id_task": 1,
+    "id_tower_stage": 1,
+    "tower_stage_task_name": "Vaciado de Solado",
+    "tower_stage_task_description": "Aplicación de capa de concreto pobre para nivelación de fondo de cimentación.",
+    "tower_stage_task_status": "DONE"
+  },
+  {
+    "id_task": 2,
+    "id_tower_stage": 2,
+    "tower_stage_task_name": "Encofrado de Columnas Lote A",
+    "tower_stage_task_description": "Montaje de moldes metálicos para el primer nivel de la estructura.",
+    "tower_stage_task_status": "ONGOING"
+  },
+  {
+    "id_task": 3,
+    "id_tower_stage": 3,
+    "tower_stage_task_name": "Asentado de Ladrillo",
+    "tower_stage_task_description": "Levantamiento de muros perimétricos usando ladrillo King Kong 18 huecos.",
+    "tower_stage_task_status": "ONGOING"
+  },
+  {
+    "id_task": 4,
+    "id_tower_stage": 5,
+    "tower_stage_task_name": "Habilitado de Viga Peraltada",
+    "tower_stage_task_description": "Corte y doblado de acero de 3/4 para vigas de carga.",
+    "tower_stage_task_status": "CREATED"
+  },
+  {
+    "id_task": 5,
+    "id_tower_stage": 6,
+    "tower_stage_task_name": "Excavación de Zapata Z-04",
+    "tower_stage_task_description": "Excavación masiva con retroexcavadora para cimientos profundos.",
+    "tower_stage_task_status": "SUSPENDED"
+  },
+  {
+    "id_task": 6,
+    "id_tower_stage": 8,
+    "tower_stage_task_name": "Montaje de Cerco Provisional",
+    "tower_stage_task_description": "Instalación de paneles de madera para delimitar zona de obra.",
+    "tower_stage_task_status": "DONE"
+  },
+  {
+    "id_task": 7,
+    "id_tower_stage": 9,
+    "tower_stage_task_name": "Prueba de Estanqueidad",
+    "tower_stage_task_description": "Verificación de fugas en tuberías de agua fría y caliente.",
+    "tower_stage_task_status": "CREATED"
+  },
+  {
+    "id_task": 8,
+    "id_tower_stage": 12,
+    "tower_stage_task_name": "Vaciado de Platea",
+    "tower_stage_task_description": "Llenado de concreto premezclado en base principal de la torre.",
+    "tower_stage_task_status": "ONGOING"
+  },
+  {
+    "id_task": 9,
+    "id_tower_stage": 15,
+    "tower_stage_task_name": "Tarrajeo de Techo",
+    "tower_stage_task_description": "Aplicación de mezcla cemento-arena en cielorraso del nivel 5.",
+    "tower_stage_task_status": "CREATED"
+  },
+  {
+    "id_task": 10,
+    "id_tower_stage": 19,
+    "tower_stage_task_name": "Instalación de Rieles",
+    "tower_stage_task_description": "Fijación de guías laterales para el sistema de cabina de ascensores.",
+    "tower_stage_task_status": "ONGOING"
+  }
+]

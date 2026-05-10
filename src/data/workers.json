@@ -1,0 +1,236 @@
+[
+  {
+    "id_worker": 1,
+    "worker_full_name": "Luis Machado",
+    "worker_email": "machadoadriano28@gmail.com",
+    "worker_phone_number": "962889038",
+    "id_worker_type": 1,
+    "tower_stage_task": 1,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 2,
+    "worker_full_name": "Elena Ramírez",
+    "worker_email": "e.ramirez.obras@gmail.com",
+    "worker_phone_number": "941223344",
+    "id_worker_type": 1,
+    "tower_stage_task": 1,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 3,
+    "worker_full_name": "Carlos Mendoza",
+    "worker_email": "c.mendoza.maestro@outlook.com",
+    "worker_phone_number": "988776655",
+    "id_worker_type": 2,
+    "tower_stage_task": 1,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 4,
+    "worker_full_name": "Jorge Huamán",
+    "worker_email": "jorge.huaman.obra@gmail.com",
+    "worker_phone_number": "922334455",
+    "id_worker_type": 2,
+    "tower_stage_task": 2,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 5,
+    "worker_full_name": "Ana Sofía Castro",
+    "worker_email": "acastro.sst@seguridad.pe",
+    "worker_phone_number": "955667788",
+    "id_worker_type": 3,
+    "tower_stage_task": 2,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 6,
+    "worker_full_name": "Roberto Vílchez",
+    "worker_email": "rvilchez.prevencion@gmail.com",
+    "worker_phone_number": "911223344",
+    "id_worker_type": 3,
+    "tower_stage_task": 3,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 7,
+    "worker_full_name": "Pedro Alcántara",
+    "worker_email": "p.alcantara.fierros@gmail.com",
+    "worker_phone_number": "933445566",
+    "id_worker_type": 4,
+    "tower_stage_task": 3,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 8,
+    "worker_full_name": "Marcos Quispe",
+    "worker_email": "m.quispe.fierrero@outlook.com",
+    "worker_phone_number": "977889900",
+    "id_worker_type": 4,
+    "tower_stage_task": 3,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 9,
+    "worker_full_name": "Ricardo Zelaya",
+    "worker_email": "rzelaya.encofrados@gmail.com",
+    "worker_phone_number": "966554433",
+    "id_worker_type": 5,
+    "tower_stage_task": 3,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 10,
+    "worker_full_name": "Samuel Farfán",
+    "worker_email": "s.farfan.obra@gmail.com",
+    "worker_phone_number": "944332211",
+    "id_worker_type": 5,
+    "tower_stage_task": 10,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 11,
+    "worker_full_name": "Antonio Gruero",
+    "worker_email": "a.gruero.torre@outlook.com",
+    "worker_phone_number": "999888777",
+    "id_worker_type": 6,
+    "tower_stage_task": 10,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 12,
+    "worker_full_name": "Hugo Salvatierra",
+    "worker_email": "h.salvatierra.operador@gmail.com",
+    "worker_phone_number": "911999222",
+    "id_worker_type": 6,
+    "tower_stage_task": 10,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 15,
+    "worker_full_name": "Valeria Montes",
+    "worker_email": "v.montes.residencia@gmail.com",
+    "worker_phone_number": "941556677",
+    "id_worker_type": 1,
+    "tower_stage_task": 10,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 16,
+    "worker_full_name": "Ignacio Paredes",
+    "worker_email": "i.paredes.maestro@outlook.com",
+    "worker_phone_number": "982334411",
+    "id_worker_type": 2,
+    "tower_stage_task": 9,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 17,
+    "worker_full_name": "Beatriz Luna",
+    "worker_email": "b.luna.sst@seguridad.pe",
+    "worker_phone_number": "951443322",
+    "id_worker_type": 3,
+    "tower_stage_task": 9,
+    "worker_status": "ONTASK"
+  },
+  {
+    "id_worker": 18,
+    "worker_full_name": "Tomás Estrada",
+    "worker_email": "t.estrada.fierros@gmail.com",
+    "worker_phone_number": "963221100",
+    "id_worker_type": 4,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 19,
+    "worker_full_name": "Julian Coello",
+    "worker_email": "j.coello.encofrados@outlook.com",
+    "worker_phone_number": "974112233",
+    "id_worker_type": 5,
+    "tower_stage_task": null,
+    "worker_status": "VACATION"
+  },
+  {
+    "id_worker": 20,
+    "worker_full_name": "Marcos Elevación",
+    "worker_email": "m.elevacion.grua@gmail.com",
+    "worker_phone_number": "995887744",
+    "id_worker_type": 6,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 21,
+    "worker_full_name": "Ramiro Benavides",
+    "worker_email": "r.benavides.soporte@gmail.com",
+    "worker_phone_number": "921334455",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 22,
+    "worker_full_name": "Lucio Cárdenas",
+    "worker_email": "l.cardenas.obra@outlook.com",
+    "worker_phone_number": "931445566",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 23,
+    "worker_full_name": "Esteban Quito",
+    "worker_email": "e.quito.peon@gmail.com",
+    "worker_phone_number": "941556677",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "SUSPENDED"
+  },
+  {
+    "id_worker": 24,
+    "worker_full_name": "Fabián Rivas",
+    "worker_email": "f.rivas.ayuda@gmail.com",
+    "worker_phone_number": "951667788",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 25,
+    "worker_full_name": "Gustavo Loli",
+    "worker_email": "g.loli.soporte@outlook.com",
+    "worker_phone_number": "961778899",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 26,
+    "worker_full_name": "Hernán Cortés",
+    "worker_email": "h.cortes.obra@gmail.com",
+    "worker_phone_number": "971889900",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  },
+  {
+    "id_worker": 27,
+    "worker_full_name": "Iván Noble",
+    "worker_email": "i.noble.peon@gmail.com",
+    "worker_phone_number": "981990011",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "VACATION"
+  },
+  {
+    "id_worker": 28,
+    "worker_full_name": "Kevin Jara",
+    "worker_email": "k.jara.soporte@outlook.com",
+    "worker_phone_number": "991001122",
+    "id_worker_type": 7,
+    "tower_stage_task": null,
+    "worker_status": "AVAILABLE"
+  }
+]

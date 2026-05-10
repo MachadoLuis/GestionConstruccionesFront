@@ -1,0 +1,51 @@
+[
+  {
+    "id_worker_type": 1,
+    "worker_type_category": "Direccion y Supervision",
+    "worker_type": "Residente de Obra",
+    "worker_description": "Ingeniero responsable legal y técnico de toda la torre",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 2,
+    "worker_type_category": "Direccion y Supervision",
+    "worker_type": "Maestro de Obra",
+    "worker_description": "Líder de cuadrillas, nexo entre ingeniería y mano de obra",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 3,
+    "worker_type_category": "Direccion y Supervision",
+    "worker_type": "Prevencionista SST",
+    "worker_description": "Responsable de seguridad y salud en el trabajo",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 4,
+    "worker_type_category": "Mano de Obra Calificada",
+    "worker_type": "Operario Fierrero",
+    "worker_description": "Especialista en habilitado y armado de acero estructural",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 5,
+    "worker_type_category": "Mano de Obra Calificada",
+    "worker_type": "Operario Encofrador",
+    "worker_description": "Especialista en armado de moldes para vaciado de concreto",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 6,
+    "worker_type_category": "Mano de Obra Calificada",
+    "worker_type": "Operario Grúa Torre",
+    "worker_description": "Operador certificado de maquinaria de elevación en altura",
+    "worker_type_wage": null
+  },
+  {
+    "id_worker_type": 7,
+    "worker_type_category": "Mano de Obra de Soporte",
+    "worker_type": "Peón",
+    "worker_description": "Personal de apoyo general, carga y limpieza de obra",
+    "worker_type_wage": null
+  }
+]

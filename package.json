@@ -19,6 +19,7 @@
   "devDependencies": {
     "@mdi/font": "^7.4.47",
     "@vitejs/plugin-vue": "^6.0.5",
+    "esbuild": "^0.28.0",
     "unplugin-vue-router": "^0.19.2",
     "vite": "^8.0.4",
     "vite-plugin-vuetify": "^2.1.3"

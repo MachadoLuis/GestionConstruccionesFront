@@ -12,6 +12,12 @@ export default defineConfig({
           autoImport:true
       }),
   ],
+    build: {
+        cssMinify: 'esbuild', // Forzamos el uso de esbuild en lugar de lightningcss
+    },
+    css: {
+        transformer: 'postcss', // Usamos el transformador clásico
+    },
   server:{
     port:5000
   },
