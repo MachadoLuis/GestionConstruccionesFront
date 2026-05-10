@@ -1,0 +1,102 @@
+[
+  {
+    "id_tower_stage": 11,
+    "id_tower": 101,
+    "id_worker": 2,
+    "tower_stage_name": "Movimiento de Tierras",
+    "tower_stage_description": "Excavación masiva y eliminación de material excedente.",
+    "tower_stage_status": "CLOSED",
+    "tower_stage_opening_date": "2026-01-01",
+    "tower_stage_closing_date": "2026-01-20"
+  },
+  {
+    "id_tower_stage": 12,
+    "id_tower": 102,
+    "id_worker": 2,
+    "tower_stage_name": "Cimentación Profunda",
+    "tower_stage_description": "Vaciado de platea de cimentación y muros de sótano.",
+    "tower_stage_status": "OPENED",
+    "tower_stage_opening_date": "2026-05-01",
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 13,
+    "id_tower": 201,
+    "id_worker": 2,
+    "tower_stage_name": "Instalaciones Eléctricas Troncales",
+    "tower_stage_description": "Montaje de tableros generales y cableado de alimentadores.",
+    "tower_stage_status": "OPENED",
+    "tower_stage_opening_date": "2026-05-05",
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 14,
+    "id_tower": 202,
+    "id_worker": 2,
+    "tower_stage_name": "Habilitado de Aceros",
+    "tower_stage_description": "Preparación de estribos y refuerzos para vigas del piso 4.",
+    "tower_stage_status": "OPENED",
+    "tower_stage_opening_date": "2026-05-08",
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 15,
+    "id_tower": 301,
+    "id_worker": 2,
+    "tower_stage_name": "Levantamiento de Muros",
+    "tower_stage_description": "Asentado de ladrillo en perímetros y divisiones internas.",
+    "tower_stage_status": null,
+    "tower_stage_opening_date": null,
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 16,
+    "id_tower": 401,
+    "id_worker": 2,
+    "tower_stage_name": "Vaciado de Losa Aligerada",
+    "tower_stage_description": "Llenado de concreto premezclado en techos del nivel 12.",
+    "tower_stage_status": "OPENED",
+    "tower_stage_opening_date": "2026-05-09",
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 17,
+    "id_tower": 402,
+    "id_worker": 2,
+    "tower_stage_name": "Trazo de Ejes",
+    "tower_stage_description": "Replanteo de medidas según planos de arquitectura.",
+    "tower_stage_status": "CLOSED",
+    "tower_stage_opening_date": "2026-04-15",
+    "tower_stage_closing_date": "2026-04-18"
+  },
+  {
+    "id_tower_stage": 18,
+    "id_tower": 501,
+    "id_worker": 2,
+    "tower_stage_name": "Acabados de Fachada",
+    "tower_stage_description": "Solaqueo y pintura exterior de la torre.",
+    "tower_stage_status": null,
+    "tower_stage_opening_date": null,
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 19,
+    "id_tower": 601,
+    "id_worker": 2,
+    "tower_stage_name": "Pruebas de Ascensores",
+    "tower_stage_description": "Certificación de funcionamiento de motores y frenado.",
+    "tower_stage_status": "OPENED",
+    "tower_stage_opening_date": "2026-05-01",
+    "tower_stage_closing_date": null
+  },
+  {
+    "id_tower_stage": 20,
+    "id_tower": 602,
+    "id_worker": 2,
+    "tower_stage_name": "Obras Provisionales",
+    "tower_stage_description": "Instalación de comedores y vestuarios para personal.",
+    "tower_stage_status": "CLOSED",
+    "tower_stage_opening_date": "2026-03-01",
+    "tower_stage_closing_date": "2026-03-15"
+  }
+]

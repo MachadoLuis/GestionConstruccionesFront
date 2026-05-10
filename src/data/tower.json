@@ -1,0 +1,102 @@
+[
+  {
+    "id_tower": 101,
+    "id_project": 1,
+    "tower_name": "Torre Jacaranda Norte",
+    "tower_total_floors": 15,
+    "tower_units_per_floor": 4,
+    "tower_rooms_per_unit": 3,
+    "tower_status": "EN PROCESO",
+    "id_project_preventionist": 6
+  },
+  {
+    "id_tower": 102,
+    "id_project": 1,
+    "tower_name": "Torre Jacaranda Sur",
+    "tower_total_floors": 15,
+    "tower_units_per_floor": 4,
+    "tower_rooms_per_unit": 2,
+    "tower_status": "ABIERTA",
+    "id_project_preventionist": 17
+  },
+  {
+    "id_tower": 201,
+    "id_project": 2,
+    "tower_name": "Torre Olivos A1",
+    "tower_total_floor": 12,
+    "tower_units_per_floor": 6,
+    "tower_rooms_per_unit": 3,
+    "tower_status": "TERMINADA",
+    "id_project_preventionist": 5
+  },
+  {
+    "id_tower": 202,
+    "id_project": 2,
+    "tower_name": "Torre Olivos B2",
+    "tower_total_floors": 12,
+    "tower_units_per_floor": 6,
+    "tower_rooms_per_unit": 1,
+    "tower_status": "EN PROCESO",
+    "id_project_preventionist": 17
+  },
+  {
+    "id_tower": 301,
+    "id_project": 3,
+    "tower_name": "Girasoles Block I",
+    "tower_total_floors": 8,
+    "tower_units_per_floor": 2,
+    "tower_rooms_per_unit": 3,
+    "tower_status": "SUSPENDIDA",
+    "id_project_preventionist": 6
+  },
+  {
+    "id_tower": 401,
+    "id_project": 4,
+    "tower_name": "Roble Fase Alpha",
+    "tower_total_floors": 20,
+    "tower_units_per_floor":  8,
+    "tower_rooms_per_unit": 2,
+    "tower_status": "EN PROCESO",
+    "id_project_preventionist": 5
+  },
+  {
+    "id_tower": 402,
+    "id_project": 4,
+    "tower_name": "Roble Fase Beta",
+    "tower_total_floors": 20,
+    "tower_units_per_floor": 8,
+    "tower_rooms_per_unit": 2,
+    "tower_status": "ABIERTA",
+    "id_project_preventionist": 5
+  },
+  {
+    "id_tower": 501,
+    "id_project": 5,
+    "tower_name": "Orquídeas Principal",
+    "tower_total_floors": 10,
+    "tower_units_per_floor": 3,
+    "tower_rooms_per_unit": 4,
+    "tower_status": "EN PROCESO",
+    "id_project_preventionist": 17
+  },
+  {
+    "id_tower": 601,
+    "id_project": 6,
+    "tower_name": "Sauce Real Tower A",
+    "tower_total_floors": 25,
+    "tower_units_per_floor": 5,
+    "tower_rooms_per_unit": 3,
+    "tower_status": "ABIERTA",
+    "id_project_preventionist": 17
+  },
+  {
+    "id_tower": 602,
+    "id_project": 6,
+    "tower_name": "Sauce Real Tower B",
+    "tower_total_floors": 25,
+    "tower_units_per_floor": 5,
+    "tower_rooms_per_unit": 3,
+    "tower_status": "ABIERTA",
+    "id_project_preventionist": 6
+  }
+]
