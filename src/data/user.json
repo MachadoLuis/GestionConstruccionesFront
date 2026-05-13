@@ -1,0 +1,23 @@
+[
+  {
+    "id_user": 1,
+    "id_user_info": 1,
+    "user_name": "luis28",
+    "user_password": "hashed_machado28",
+    "user_type": "OWNER"
+  },
+  {
+    "id_user": 2,
+    "id_user_info": 2,
+    "user_name": "eramirez.obra",
+    "user_password": "hashed_elena2026",
+    "user_type": "WORKER"
+  },
+  {
+    "id_user": 3,
+    "id_user_info": 3,
+    "user_name": "cmendoza.maestro",
+    "user_password": "hashed_carlos99",
+    "user_type": "WORKER"
+  }
+]
