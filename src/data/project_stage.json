@@ -1,0 +1,102 @@
+[
+  {
+    "id_project_stage": 11,
+    "id_project": 1,
+    "id_worker": 2,
+    "project_stage_name": "Movimiento de Tierras",
+    "project_stage_description": "Excavación masiva y eliminación de material excedente.",
+    "project_stage_status": "CLOSED",
+    "project_stage_opening_date": "2026-01-01",
+    "project_stage_closing_date": "2026-01-20"
+  },
+  {
+    "id_project_stage": 12,
+    "id_project": 1,
+    "id_worker": 2,
+    "project_stage_name": "Cimentación Profunda",
+    "project_stage_description": "Vaciado de platea de cimentación y muros de sótano.",
+    "project_stage_status": "OPENED",
+    "project_stage_opening_date": "2026-05-01",
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 13,
+    "id_project": 2,
+    "id_worker": 2,
+    "project_stage_name": "Instalaciones Eléctricas Troncales",
+    "project_stage_description": "Montaje de tableros generales y cableado de alimentadores.",
+    "project_stage_status": "OPENED",
+    "project_stage_opening_date": "2026-05-05",
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 14,
+    "id_project": 2,
+    "id_worker": 2,
+    "project_stage_name": "Habilitado de Aceros",
+    "project_stage_description": "Preparación de estribos y refuerzos para vigas del piso 4.",
+    "project_stage_status": "OPENED",
+    "project_stage_opening_date": "2026-05-08",
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 15,
+    "id_project": 3,
+    "id_worker": 2,
+    "project_stage_name": "Levantamiento de Muros",
+    "project_stage_description": "Asentado de ladrillo en perímetros y divisiones internas.",
+    "project_stage_status": null,
+    "project_stage_opening_date": null,
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 16,
+    "id_project": 4,
+    "id_worker": 2,
+    "project_stage_name": "Vaciado de Losa Aligerada",
+    "project_stage_description": "Llenado de concreto premezclado en techos del nivel 12.",
+    "project_stage_status": "OPENED",
+    "project_stage_opening_date": "2026-05-09",
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 17,
+    "id_project": 4,
+    "id_worker": 2,
+    "project_stage_name": "Trazo de Ejes",
+    "project_stage_description": "Replanteo de medidas según planos de arquitectura.",
+    "project_stage_status": "CLOSED",
+    "project_stage_opening_date": "2026-04-15",
+    "project_stage_closing_date": "2026-04-18"
+  },
+  {
+    "id_project_stage": 18,
+    "id_project": 5,
+    "id_worker": 2,
+    "project_stage_name": "Acabados de Fachada",
+    "project_stage_description": "Solaqueo y pintura exterior de la torre.",
+    "project_stage_status": null,
+    "project_stage_opening_date": null,
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 19,
+    "id_project": 6,
+    "id_worker": 2,
+    "project_stage_name": "Pruebas de Ascensores",
+    "project_stage_description": "Certificación de funcionamiento de motores y frenado.",
+    "project_stage_status": "OPENED",
+    "project_stage_opening_date": "2026-05-01",
+    "project_stage_closing_date": null
+  },
+  {
+    "id_project_stage": 20,
+    "id_project": 6,
+    "id_worker": 2,
+    "project_stage_name": "Obras Provisionales",
+    "project_stage_description": "Instalación de comedores y vestuarios para personal.",
+    "project_stage_status": "CLOSED",
+    "project_stage_opening_date": "2026-03-01",
+    "project_stage_closing_date": "2026-03-15"
+  }
+]

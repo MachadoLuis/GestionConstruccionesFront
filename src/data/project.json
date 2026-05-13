@@ -5,8 +5,7 @@
     "project_location": "Ca. 2 Comas",
     "project_work_code": "OBRA-2026-04",
     "initial_project_budget": 1000000,
-    "final_project_budget": null,
-    "id_project_manager": 1
+    "final_project_budget": null
   },
   {
     "id_project": 2,
@@ -14,8 +13,7 @@
     "project_location": "Av. Las Palmeras, Los Olivos",
     "project_work_code": "OBRA-2026-05",
     "initial_project_budget": 2500000,
-    "final_project_budget": null,
-    "id_project_manager": 2
+    "final_project_budget": null
   },
   {
     "id_project": 3,
@@ -23,8 +21,7 @@
     "project_location": "Jr. Ica 450, Surco",
     "project_work_code": "OBRA-2026-06",
     "initial_project_budget": 1850000,
-    "final_project_budget": null,
-    "id_project_manager": 3
+    "final_project_budget": null
   },
   {
     "id_project": 4,
@@ -32,8 +29,7 @@
     "project_location": "Av. Universitaria, San Miguel",
     "project_work_code": "OBRA-2026-07",
     "initial_project_budget": 3200000,
-    "final_project_budget": null,
-    "id_project_manager": 3
+    "final_project_budget": null
   },
   {
     "id_project": 5,
@@ -41,8 +37,7 @@
     "project_location": "Calle Tulipanes, La Molina",
     "project_work_code": "OBRA-2026-08",
     "initial_project_budget": 4100000,
-    "final_project_budget": null,
-    "id_project_manager": 2
+    "final_project_budget": null
   },
   {
     "id_project": 6,
@@ -50,7 +45,6 @@
     "project_location": "Av. Arequipa, Miraflores",
     "project_work_code": "OBRA-2026-09",
     "initial_project_budget": 5000000,
-    "final_project_budget": null,
-    "id_project_manager": 1
+    "final_project_budget": null
   }
 ]
