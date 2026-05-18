@@ -15,7 +15,7 @@ const layout_component = computed(() => {
 
 </script>
 <template>
-  <v-app style="background-color:#F5F5F5">
+  <v-app>
     <component :is="layout_component">
       <RouterView/>
     </component>

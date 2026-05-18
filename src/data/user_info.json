@@ -1,26 +1,26 @@
 [
   {
     "id_user_info": 1,
+    "id_user": 1,
     "user_info_company": "MONTERO SAC.",
     "user_info_full_name": "Luis Adriano Machado",
     "user_info_phone": "962889038",
-    "user_info_email": "machadoadriano28@gmail.com",
-    "user_info_dni": "72145678"
+    "user_info_email": "machadoadriano28@gmail.com"
   },
   {
     "id_user_info": 2,
+    "id_user": 2,
     "user_info_company": "MONTERO SAC.",
     "user_info_full_name": "Elena Sofía Ramírez",
     "user_info_phone": "941223344",
-    "user_info_email": "e.ramirez.obras@gmail.com",
-    "user_info_dni": "45892310"
+    "user_info_email": "e.ramirez.obras@gmail.com"
   },
   {
     "id_user_info": 3,
+    "id_user": 3,
     "user_info_company": "MONTERO SAC.",
     "user_info_full_name": "Carlos Daniel Mendoza",
     "user_info_phone": "988776655",
-    "user_info_email": "c.mendoza.maestro@outlook.com",
-    "user_info_dni": "10234567"
+    "user_info_email": "c.mendoza.maestro@outlook.com"
   }
 ]

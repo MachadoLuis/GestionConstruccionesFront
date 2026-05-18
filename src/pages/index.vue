@@ -1,6 +1,9 @@
 <script setup>
 import {useRouter} from "vue-router";
 const router = useRouter();
+const go_to_login = () => {
+  router.push("/login");
+}
 const go_to_projects = () => {
   router.push("/projects");
 }
@@ -12,7 +15,7 @@ const go_to_projects = () => {
       <v-app-bar-title class="font-weight-bold" style="color:#F5F5F5">GraniteResonance</v-app-bar-title>
       <v-spacer></v-spacer>
       <template v-slot:append>
-        <v-btn variant="text" style="color:#F5F5F5">
+        <v-btn variant="text" style="color:#F5F5F5" @click="go_to_login">
           Cuenta Empresa
           <v-icon end>mdi-briefcase-account</v-icon>
         </v-btn>
