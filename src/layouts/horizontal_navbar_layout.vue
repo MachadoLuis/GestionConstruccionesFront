@@ -4,7 +4,6 @@
 
 <template>
   <v-card>
-    IADASDAD
   </v-card>
   <v-main>
     <RouterView/>
